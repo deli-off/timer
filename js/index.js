@@ -3,14 +3,14 @@
 // let stopBtn = document.querySelector('.stop')
 // let resetBtn = document.querySelector('.reset')
 
-var h1 = document.querySelector('.time')
-var start = document.querySelector('.start')
-var stop = document.querySelector('.stop')
-var reset = document.querySelector('.reset')
-var sec = 0;
-var min = 0;
-var hrs = 0;
-var t;
+let h1 = document.querySelector('.time')
+let start = document.querySelector('.start')
+let stop = document.querySelector('.stop')
+let reset = document.querySelector('.reset')
+let sec = 0;
+let min = 0;
+let hrs = 0;
+let t;
 
 function tick() {
     sec++;
